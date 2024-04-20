@@ -1,7 +1,7 @@
 
 #Notes
 # the range() function generates numbers up to, but not including, the specified end value.
-
+#Inner Loop: The inner loop runs from 0 to 4 (inclusive) with range(5). This loop controls the columns of the pattern.
 
 
 #pattern 1
