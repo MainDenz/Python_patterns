@@ -72,5 +72,47 @@ for i in range(n):
     print()
 
 
+# ****A
+# ***BA
+# **CBA
+# *DCBA
+# EDCBA
+print("\nPattern 25")
+for i in range(0,5):
+    for j in range(4,-1,-1):
+        if(j>i):
+            print("*",end="")
+        else:
+            print(chr(j+65),end="")
+    print()
+
+# EEEEE
+# *DDDD
+# **CCC
+# ***BB
+# ****A
+print("\nPattern 26")
+for i in range(4,-1,-1):
+    for j in range(4,-1,-1):
+        if(j>i):
+            print("*",end="")
+        else:
+            print(chr(i+65),end="")
+    print()
+
+# EDCBA
+# *DCBA
+# **CBA
+# ***BA
+# ****A
+print("\nPattern 27")
+for i in range(4,-1,-1):
+    for j in range(4,-1,-1):
+        if(j>i):
+            print("*",end="")
+        else:
+            print(chr(j+65),end="")
+    print()
+
 
 
