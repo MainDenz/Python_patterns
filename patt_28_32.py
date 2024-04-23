@@ -20,17 +20,72 @@ for i in range(5,0,-1):
 #  *11 *12 *
 
 print("\nPattern 29")
-n=0
+z=0
 for i in range(1,6):
     for j in range(1,6):
         if (j%2==i%2):
             print("*",end=" ")
-            n+=1   
+            z+=1   
         else:
-            print(n,end=" ")
+            print(z,end=" ")
     print()
 
 
 
+# * A* B*
+# C* D* E
+# * F* G*
+# H* I* J
+# * K* L*
 
+print("\nPattern 30")
+y = ord("A")
+for i in range(1,6):
+    for j in range(1,6):
+        if(j%2==i%2):
+            print("*",end=" ")
+        else:
+            print(chr(y),end=" ")
+            y+=1
+    print()
+
+
+
+#  * # # # # # #
+#  # # # # # * *
+#  * * * # # # #
+#  # # # * * * *
+#  * * * # # # #
+#  # # # # # * *
+#  * # # # # # #
+
+'''print("\nPattern 31")
+for i in range(3,-4,-1):
+    if(i%2==1):
+        for j in range(1,7):
+            if(j==1):
+                print("#",end=" ")
+            elif(j<i):
+                print("*",end=" ")
+
+            else:
+                print("#",end=" ")
+'''
+print("\nPattern 31")
+n = 7
+x = 1
+
+for i in range(1, n + 1):
+    for j in range(1, n + 1):
+        if i % 2 == 1 and j <= x:
+            print("* ", end="")
+        elif i % 2 == 0 and j >= n - x + 1:
+            print("* ", end="")
+        else:
+            print("# ", end="")
+    print()
+    if i <= n // 2:
+        x += 1
+    else:
+        x -= 1
 
