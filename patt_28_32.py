@@ -89,3 +89,18 @@ for i in range(1, n + 1):
     else:
         x -= 1
 
+
+#  * 0 0 0 * 0 0 0 *
+#  0 * 0 0 * 0 0 * 0
+#  0 0 * 0 * 0 * 0 0
+#  0 0 0 * * * 0 0 0
+#  0 0 0 0 * 0 0 0 0
+
+print("\nPattern 32")
+for i in range(1,6):
+    for j in range(1,10):
+        if (j==i or j==5 or j==10-i):
+            print("*",end=" ")
+        else:
+            print("0",end=" ")
+    print()
