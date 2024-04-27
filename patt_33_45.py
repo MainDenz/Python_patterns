@@ -22,17 +22,61 @@ for i in range(1,6):
 print("\nPattern 34")
 s=1
 
-for i in range(1,6):
+'''for i in range(1,6):
     for j in range(1,6):
         if j==1:
             print(s,end="")
             s+=i
         else:
             break
+'''
+# #
+# **
+# ###
+# ****
+# #####
+print("\nPattern 35")
+for i in range(1,6):
+    for j in range(1,6):
+        if (i%2==1 and j<=i):
+            print("#",end="")
+        elif (i%2==0 and j<=i)  :
+            print("*",end="")
+        else:
+            break
+    print()
 
 
+# 1
+# **
+# 333
+# ****
+# 55555
+print("\nPattern 36")
+for i in range(1,6):
+    for j in range(1,6):
+        if (i%2==1 and j<=i):
+            print(i,end="")
+        elif (i%2==0 and j<=i)  :
+            print("*",end="")
+        else:
+            break
+    print()
 
-
-
+# 1
+# **
+# 123
+# ****
+# 12345
+print("\nPattern 37")
+for i in range(1,6):
+    for j in range(1,6):
+        if (i%2==1 and j<=i):
+            print(j,end="")
+        elif (i%2==0 and j<=i)  :
+            print("*",end="")
+        else:
+            break
+    print()
 
 
