@@ -260,4 +260,74 @@ for i in range(5,0,-1):
     print()
 
 
+# # # # # #
+#  * * * *
+#   # # #
+#    * *
+#     #
+
+
+print("\nPattern 61")
+for i in range(1,6):
+    for j in range(1,6):
+        if(j<i):
+            print(" ",end="")
+        elif(i%2==1):
+            print("#",end=" ")
+        else:
+            print("*",end=" ")
+    print()
+
+
+
+# # * # * #
+#  * # * #
+#   # * #
+#    * #
+#     #
+print("\n Pattern 62")
+for i in range(1,6):
+    for j in range(1,6):
+        if (j<i):
+            print(" ",end="")
+        elif(j%2==1):
+            print("#",end=" ")
+        else:
+            print("*",end=" ")
+    print()
+
+# 5 5 5 5 5
+#  * * * *
+#   3 3 3
+#    * *
+#     1
+
+print("\nPattern 63")
+for i in range(5,0,-1):
+    for j in range(5,0,-1):
+        if(j>i):
+            print(" ",end="")
+        elif(i%2==1):
+            print(i,end=" ")
+        else:
+            print("*",end=" ")
+    print()
+
+# 0
+# 1*
+# 2**
+# 3***
+# 4****
+# 5*****
+
+print("\nPattern 64")
+for i in range(6):
+    for j in range(6):
+        if(j<=i):
+            if(j==0):
+                print(i,end="")
+            else:
+                print("*",end="")
+    print()
+        
 
