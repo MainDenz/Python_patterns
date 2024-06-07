@@ -330,4 +330,51 @@ for i in range(6):
                 print("*",end="")
     print()
         
+# 5*****
+# 4****
+# 3***
+# 2**
+# 1*
+# 0”
 
+print("\nPattern 65")
+for i in range(5,-1,-1):
+    for j in range(i+1):
+        if (j==0):
+            print(i,end="")
+        else:
+            print("*",end="")
+    print()
+
+# 0
+# *1
+# **2
+# ***3
+# ****4
+# *****5
+
+print("\nPattern 66")
+for i in range(6):
+    for j in range(i+1):
+        if(j==i):
+            print(j,end="")
+        else:
+            print("*",end="")
+    print()
+
+# *****5
+# ****4
+# ***3
+# **2
+# *1
+# 0
+
+print("\nPattern 67")
+for i in range(5,-1,-1):
+    for j in range(i+1):
+        if(j==i):
+            print(j,end="")
+            break
+        else:
+            print("*",end="")
+    print()
