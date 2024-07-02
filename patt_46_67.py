@@ -378,13 +378,3 @@ for i in range(5,-1,-1):
         else:
             print("*",end="")
     print()
-
-print("\nPattern 67333333333")
-for i in range(5,-1,-1):
-    for j in range(i+1):
-        if(j==i):
-            print(j,end="")
-            break
-        else:
-            print("*",end="")
-    print()
