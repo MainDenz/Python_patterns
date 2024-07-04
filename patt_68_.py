@@ -122,3 +122,65 @@ for i in range(1,6):
         else:
             print(" ",end=" ")
     print()
+
+#     *
+#    * *
+#   *   *
+#  *     *
+# *       *
+
+print("\nPattern 76")
+for i in range(5,0,-1):
+    for j in range(1,11):
+        if(i==j or i+j==10):
+            print("*",end="")
+        else:
+            print(" ",end="")
+    print()
+
+# * * * * *
+#   *     *
+#     *   *
+#       * *
+#         *
+
+print("\nPattern 77")
+for i in range(1,6):
+    for j in range(1,6):
+        if(i==1 or i==j or j==5):
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+
+# *       *
+#  *     *
+#   *   *
+#    * *
+#     *
+
+print("\nPattern 78")
+for i in range(1,6):
+    for j in range(1,10):
+        if(i==j or i+j==10):
+            print("*",end="")
+        else:
+            print(" ",end="")
+    print()
+
+
+# *
+#  *
+#   *
+#    *
+#   *
+#  *
+# *
+print("\nPattern 79")
+for i in range(1,8):
+    for j in range(1,5):
+        if(j==i or j+i==8):
+            print("*",end="")
+        else:
+            print(" ",end="")
+    print()
