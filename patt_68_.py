@@ -184,3 +184,21 @@ for i in range(1,8):
         else:
             print(" ",end="")
     print()
+
+
+#    *
+#   *
+#  *
+# *
+#  *
+#   *
+#    *
+
+print("\nPattern 80")
+for i in range(1,8):
+    for j in range(4,0,-1):
+        if(i==j or i+j==8):
+            print("*",end="")
+        else:
+            print(" ",end="")
+    print()
