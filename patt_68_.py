@@ -202,3 +202,24 @@ for i in range(1,8):
         else:
             print(" ",end="")
     print()
+
+
+
+#     *
+#    * *
+#   *   *
+#  *     *
+# *       *
+#  *     *
+#   *   *
+#    * *
+#     *
+
+print("\nPatern 81")
+for i in range(5,-4,-1):
+    for j in range(10):
+        if(abs(i)==j or abs(i)+j==10):
+            print("*",end="")
+        else:
+            print(" ",end="")
+    print()
